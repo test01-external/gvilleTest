@@ -20,10 +20,6 @@ steps:
   inputs:
     artifactFeeds: 'package01'
 
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: 'pip install PythonPackage'
 
 - task: Bash@3
   inputs:

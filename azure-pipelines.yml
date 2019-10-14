@@ -18,7 +18,7 @@ steps:
 
 - task: PipAuthenticate@1
   inputs:
-    artifactFeeds: 'package01'
+    artifactFeeds: 'package02public'
 
 
 - task: Bash@3
